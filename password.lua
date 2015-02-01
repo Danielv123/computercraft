@@ -27,7 +27,9 @@ end
 
 function wrong()
 	clear()
-	print("Password rejected. Try again.")
+	print("Password rejected. Please try again.")
+	sleep(3)
+	shell.run("password")
 end
 
 function main()
